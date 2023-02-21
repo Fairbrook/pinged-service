@@ -13,6 +13,6 @@ server.get('/health-check/readiness', async (_, res) => {
   res.send(await healthCheck());
 });
 
+cron.schedule('0 * * * *', cronCheck);
 server.listen('3000');
-cron.schedule('0/2 * * * *', cronCheck);
 console.log('Server listening');
