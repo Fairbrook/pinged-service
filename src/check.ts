@@ -7,7 +7,7 @@ import { sendEmail } from './email.js';
 
 export async function healthCheck () {
   return HealthcheckerDetailedCheck({
-    name: 'Test application',
+    name: 'La Nube méxico',
     version: '1.0',
     integrations: [
       {
