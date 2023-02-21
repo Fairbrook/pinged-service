@@ -1,0 +1,4 @@
+Session*
+node_modules/
+dist/
+.env

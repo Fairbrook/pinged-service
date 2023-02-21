@@ -1,0 +1,10 @@
+diff --git a/node_modules/nodejs-health-checker/dist/interfaces/types.d.ts b/node_modules/nodejs-health-checker/dist/interfaces/types.d.ts
+index ed2739f..dc903d7 100644
+--- a/node_modules/nodejs-health-checker/dist/interfaces/types.d.ts
++++ b/node_modules/nodejs-health-checker/dist/interfaces/types.d.ts
+@@ -1,4 +1,4 @@
+-import { Dialect } from "sequelize/types";
++import { Dialect } from "sequelize/types/index";
+ /**
+  * ApplicationHealth used to check all application integrations
+  * and return status of each of then
